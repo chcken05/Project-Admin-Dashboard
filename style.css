@@ -8,7 +8,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
 }
 
 body,
@@ -53,6 +53,23 @@ a {
 .sidebar {
   background-color: aqua;
   grid-row: 1/-1;
+  display: grid;
+}
+
+.sidebar ol {
+  height: 50%;
+  font-size: 1.3em;
+  display: grid;
+  margin-left: 2ch;
+}
+
+li:has(a#logo) {
+  margin-top: 2ch;
+  margin-bottom: 1.2em;
+}
+
+li:has(a#sub-links) {
+  margin-top: 2em;
 }
 
 .header {
