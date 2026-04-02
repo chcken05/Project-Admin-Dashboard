@@ -6,127 +6,165 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="container">
+      <!-- SIDEBAR -->
       <div class="sidebar">
-        <a href="#" id="logo">Dashboard</a>
+        <a href="#" id="logo">📊 Dashboard</a>
+
         <div class="pages">
-          <a href="#">Home</a>
-          <a href="#">Profile</a>
-          <a href="#">Messages</a>
-          <a href="#">History</a>
-          <a href="#">Tasks</a>
-          <a href="#">Communities</a>
+          <a href="#">🏠 Home</a>
+          <a href="#">👤 Profile</a>
+          <a href="#">💬 Messages</a>
+          <a href="#">📜 History</a>
+          <a href="#">✅ Tasks</a>
+          <a href="#">👥 Communities</a>
         </div>
+
         <div class="settings">
-          <a href="#">Settings</a>
-          <a href="#">Support</a>
-          <a href="#">Privacy</a>
+          <a href="#">⚙️ Settings</a>
+          <a href="#">❓ Support</a>
+          <a href="#">🔒 Privacy</a>
         </div>
       </div>
+
+      <!-- HEADER -->
       <div class="header">
         <div class="header-nav">
-          <input
-            class="search"
-            type="search"
-            id="site-search"
-            name="q"
-            placeholder="Search..."
-          />
-          <img class="notification-icon" src="" alt="notification" />
-          <img class="profile-icon" src="" alt="profile-icon" />
+          <input class="search" type="search" placeholder="Search..." />
+          <div class="icon">🔔</div>
+          <div class="profile-icon"></div>
           <h3 class="profile-name">Profile Name</h3>
         </div>
+
         <div class="header-profile">
-          <img class="profile-icon-lg" src="" alt="big-profile-icon" />
-          <p class="greeting">Hi there!</p>
-          <h3 class="profile-name">profile-name</h3>
+          <div class="profile-icon-lg"></div>
+          <div>
+            <p class="greeting">Hi there!</p>
+            <h3 class="profile-name">Profile Name</h3>
+          </div>
         </div>
+
         <div class="header-actions">
-          <button class="btn-new">New</button>
-          <button class="btn-upload">Upload</button>
-          <button class="btn-share">Share</button>
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
         </div>
       </div>
+
+      <!-- MAIN CONTENT -->
       <div class="mainContent">
+        <!-- PROJECTS -->
         <div class="projects">
-          <h3 class="header-projects">Your projects</h3>
+          <h3>Your Projects</h3>
+
           <div class="cards">
+            <!-- CARD -->
             <div class="card">
-              <h3>title</h3>
-              <p>paragraphs...</p>
-              <img src="" alt="favorites" />
-              <img src="" alt="share" />
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>🔗</span>
+              </div>
             </div>
+
             <div class="card">
-              <h3>title</h3>
-              <p>paragraphs...</p>
-              <img src="" alt="favorites" />
-              <img src="" alt="share" />
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>🔗</span>
+              </div>
             </div>
+
             <div class="card">
-              <h3>title</h3>
-              <p>paragraphs...</p>
-              <img src="" alt="favorites" />
-              <img src="" alt="share" />
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>🔗</span>
+              </div>
             </div>
+
             <div class="card">
-              <h3>title</h3>
-              <p>paragraphs...</p>
-              <img src="" alt="favorites" />
-              <img src="" alt="share" />
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>🔗</span>
+              </div>
             </div>
+
             <div class="card">
-              <h3>title</h3>
-              <p>paragraphs...</p>
-              <img src="" alt="favorites" />
-              <img src="" alt="share" />
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>🔗</span>
+              </div>
             </div>
+
             <div class="card">
-              <h3>title</h3>
-              <p>paragraphs...</p>
-              <img src="" alt="favorites" />
-              <img src="" alt="share" />
+              <h3>Project Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>🔗</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="announcements">
-          <h3>Announcements</h3>
-          <div class="announcement">
-            <h3>title</h3>
-            <p>paragraph</p>
-          </div>
-          <div class="announcement">
-            <h3>title</h3>
-            <p>paragraph</p>
-          </div>
-          <div class="announcement">
-            <h3>title</h3>
-            <p>paragraph</p>
-          </div>
-        </div>
-        <div class="trending">
-          <h3>Trending</h3>
-          <div class="ranking">
-            <div class="user">
-              <img src="" alt="profile" />
-              <h3>profile name</h3>
-              <p>description</p>
+
+        <!-- RIGHT SIDE -->
+        <div class="right-side">
+          <!-- ANNOUNCEMENTS -->
+          <div class="announcements">
+            <h3>Announcements</h3>
+
+            <div class="announcement">
+              <h4>Title</h4>
+              <p>Short description...</p>
             </div>
-            <div class="user">
-              <img src="" alt="profile" />
-              <h3>profile name</h3>
-              <p>description</p>
+
+            <div class="announcement">
+              <h4>Title</h4>
+              <p>Short description...</p>
             </div>
-            <div class="user">
-              <img src="" alt="profile" />
-              <h3>profile name</h3>
-              <p>description</p>
+
+            <div class="announcement">
+              <h4>Title</h4>
+              <p>Short description...</p>
             </div>
+          </div>
+
+          <!-- TRENDING -->
+          <div class="trending">
+            <h3>Trending</h3>
+
             <div class="user">
-              <img src="" alt="profile" />
-              <h3>profile name</h3>
-              <p>description</p>
+              <div class="profile-icon"></div>
+              <div>
+                <h4>@user</h4>
+                <p>Project</p>
+              </div>
+            </div>
+
+            <div class="user">
+              <div class="profile-icon"></div>
+              <div>
+                <h4>@user</h4>
+                <p>Project</p>
+              </div>
+            </div>
+
+            <div class="user">
+              <div class="profile-icon"></div>
+              <div>
+                <h4>@user</h4>
+                <p>Project</p>
+              </div>
             </div>
           </div>
         </div>
